@@ -30,5 +30,15 @@ Paid Conversion Rate also has a direct relationship with business growth because
 While optimizing for Paid Conversion Rate is important, focusing on it alone may create unintended consequences. A campaign could increase conversions while simultaneously increasing refund requests, support ticket volumes, or reducing overall customer satisfaction. Therefore, guardrail metrics such as Refund Rate, Support Ticket Rate, and Average Days to Convert must also be monitored before making a final launch recommendation.
 
 
+## KPI Tree
+
+The selected North Star Metric is Paid Conversion Rate, which represents the percentage of users who convert into paying customers. To understand the factors influencing this metric, a KPI Tree was developed to identify the key drivers of conversion performance.
+
+The primary drivers include Trial Start Rate, Onboarding Completion Rate, User Engagement, and Revenue Outcomes. Trial Start Rate measures how effectively users move from the landing page to the trial experience. Onboarding Completion Rate measures how successfully users complete the activation journey. User Engagement is represented through the Engagement Score, which indicates product adoption and user activity. Revenue Outcomes are evaluated using Revenue 30D and Days to Convert.
+
+In addition to growth metrics, guardrail metrics are included to ensure that improvements in conversion do not negatively affect customer experience. Refund Rate and Support Tickets 30D are monitored to identify potential issues that may arise from the new onboarding experience.
+
+The KPI Tree provides a structured framework for evaluating experiment performance and understanding which factors contribute most significantly to paid conversion.
+
 
 
