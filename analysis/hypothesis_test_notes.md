@@ -64,5 +64,43 @@ The purpose of this test is to determine whether the observed improvement in Pai
 
 The results of this hypothesis test will be used as a key input when deciding whether the Treatment experience should be launched to all users.
 
+## Test Inputs
 
+Control Group:
+- Users = 693
+- Conversions = 22
+- Conversion Rate = 3.17%
+
+Treatment Group:
+- Users = 715
+- Conversions = 50
+- Conversion Rate = 6.99%
+
+---
+
+## Statistical Test Performed
+
+A Two-Proportion Z-Test was performed to compare Paid Conversion Rate between the Control and Treatment groups.
+
+---
+
+## Test Output
+
+- Z Statistic = -3.2519
+- P Value = 0.000573
+- Significance Level (α) = 0.05
+
+---
+
+## Decision
+
+Since the p-value (0.000573) is less than the significance level (0.05), the Null Hypothesis is rejected.
+
+---
+
+## Business Interpretation
+
+The Treatment group achieved a significantly higher Paid Conversion Rate than the Control group. The observed improvement is statistically significant and unlikely to be caused by random variation.
+
+Based on this result, the new onboarding campaign demonstrates a measurable positive impact on customer conversion performance and should be considered for launch, subject to evaluation of guardrail metrics.
 
